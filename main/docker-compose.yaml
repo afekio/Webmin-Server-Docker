@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webmin:
+    image: webmin:latest
+    ports:
+      - 10000:10000
+
+
+# docker run -d --name webmin --network=host webmin:latest
